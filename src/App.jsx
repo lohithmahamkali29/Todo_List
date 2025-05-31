@@ -16,16 +16,16 @@ function App() {
 
    <div className='child-2'>
 
-    <div id ='ongoing_tasks'>
+    <div className ='ongoing'>
       <h2>Ongoing Tasks</h2>
-      <input type='text' className='inp-box'/>
-      <button>Add Task</button>
+      {/* <input type='text' className=''/>
+      <button>Add Task</button> */}
     </div>
 
-    <div id = 'completed_task'>
+    <div className = 'completed'>
       <h2>Completed Tasks</h2>
-      <input type='text' className='inp-box'/>
-      <button>Add Task</button>
+      {/* <input type='text' className=''/>
+      <button>Add Task</button> */}
     </div>
    </div>
    
