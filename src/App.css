@@ -18,10 +18,12 @@
 .ongoing{
   border: 1px solid black;
   display: flex;
+  flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
   width:40%;
   justify-content: center;
+  width:300px;
 
 }
 .completed{
@@ -29,8 +31,13 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  width:40%;
+  width:300px ;
   justify-content: center;
+  flex-direction: column;
+
+}
+.completed > li{
+  text-decoration: line-through;
 }
 .inp-box{
   height: 45px;
@@ -66,7 +73,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
+  width:70%;
+  height:fit-content;
 }
 
 .child-2{
@@ -75,7 +83,7 @@
   column-gap: 20px;
   row-gap: 10px;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   width:80%;
   
 }
