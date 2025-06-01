@@ -8,12 +8,16 @@ function App() {
   return (
     <>
   <div className= 'container'>
-     <h1 id = 'heading'> TODO APP</h1>
 
+    <div>
+      <h1 id = 'heading'> TODO APP......</h1>
+
+    </div>
+     
     <div id='child-1'>
     <input type ='text' className='inp-box'/>
     <button id = 'btn' >Add Task</button>
-  </div>
+  </div> 
 
    <div className='child-2'>
 
